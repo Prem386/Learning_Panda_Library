@@ -16,3 +16,49 @@ Learning Panda Library is designed to teach pandas fundamentals through practica
 ```bash
 git clone https://github.com/Prem386/Learning_Panda_Library.git
 cd Learning_Panda_Library
+```
+---
+### Open the Notebooks:
+- Use **Jupyter Notebook** or **Google Colab** to open the `.ipynb` files.
+- Follow the step-by-step Markdown instructions and run code cells as you go.
+
+---
+## 📚 Content Overview
+
+- **Getting Started**: Series and DataFrame basics
+- **Reading Data**: CSV, Excel, JSON
+- **Data Cleaning**: Handling missing values, type conversion
+- **Indexing & Filtering**: Slicing, querying
+- **Aggregation**: `groupby`, `pivot_table`
+- **Merging**: `merge`, `concat`, `join`
+- **Time Series**: Parsing dates, resampling
+- **Visualization**: With pandas, Matplotlib, or Seaborn
+
+---
+## 🛠️ Installation
+
+Install dependencies (if not already installed):
+
+```bash
+pip install pandas matplotlib seaborn
+```
+---
+
+#### 4. 📌 Add a Sample Usage Code Block
+
+You hinted at usage earlier. Include a minimal working example.
+
+
+## 💡 Example Usage
+
+```python
+import pandas as pd
+
+df = pd.read_csv('data/sample.csv')
+df_clean = df.drop_duplicates().fillna(method='ffill')
+summary = df_clean.groupby('category')['value'].mean()
+print(summary)
+```
+## 📄 License
+
+This project is open-source. [MIT License](LICENSE)
