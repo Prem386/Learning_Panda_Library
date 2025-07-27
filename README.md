@@ -44,7 +44,7 @@ pip install pandas matplotlib seaborn
 ```
 ---
 
-#### 4. 📌 Add a Sample Usage Code Block
+#### Sample Usage Code Block
 
 You hinted at usage earlier. Include a minimal working example.
 
